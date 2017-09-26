@@ -1,0 +1,27 @@
+{
+  "name": "race-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-beautify": "^2.0.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-fluent-ffmpeg": "^1.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-s3-upload": "^1.6.6",
+    "jquery": "^3.2.1",
+    "nightmare": "^2.10.0",
+    "through2": "^2.0.3",
+    "vo": "^4.0.2"
+  },
+  "dependencies": {
+    "request": "^2.82.0",
+    "request-promise": "^4.2.2"
+  }
+}
